@@ -1,0 +1,17 @@
+#include "/home/enzo/.Xressources.d/nord"
+#include "/home/enzo/.Xressources.d/iosevka"
+
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+
+URxvt.scrollBar: false
+!URxvt*depth: 32
+URxvt.perl-ext-common: default,matcher,resize-font
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline Bold fg5
+URxvt*borderless: false
+!URxvt.letterSpace: -1
