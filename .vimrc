@@ -18,6 +18,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'mattn/emmet-vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+Plugin 'Raimondi/delimitMate'
 
 call vundle#end()
 
@@ -91,10 +92,6 @@ map <C-L> <C-W><C-L>
 vnoremap . :normal.<CR>
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
-
-" autoclosing brackets
-inoremap ' ''<left>
-inoremap " ""<left>
 
 " Folding
 set foldenable
