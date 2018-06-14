@@ -1,0 +1,5 @@
+! fonts
+
+URxvt*font: xft:Iosevka Term:style=medium:size=13
+URxvt*boldFont: xft:Iosevka Term:style=bold:size=13
+
